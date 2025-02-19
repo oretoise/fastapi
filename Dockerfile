@@ -10,4 +10,4 @@ RUN uv sync --frozen
 
 ENV PATH="/app/.venv/bin:$PATH"
 
-CMD ["fastapi", "dev", "--host", "0.0.0.0", "main.py"]
+CMD ["fastapi", "dev", "--host", "0.0.0.0", "src/main.py"]
